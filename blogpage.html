@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- 
+    - primary meta tags
+  -->
+    <title>JunMark</title>
+    <meta
+      name="title"
+      content="Julia - I'm User Interface Designer & Developer." />
+    <meta
+      name="description"
+      content="This is a personal portfolio html template made by codewithsadee" />
+
+    <!-- 
+    - favicon
+  -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap"
+      rel="stylesheet" />
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- 
+    - preload images
+  -->
+    <link rel="preload" as="image" href="./assets/images/hero-banner.jpg" />
+    <link rel="preload" as="image" href="./assets/images/Blog.svg" />
+  </head>
+
+  <body>
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
+      <div class="container">
+        <a href="index.html" class="logo">
+          <h3 class="h4" style="display: flex; align-items: center; gap: 8px">
+            JunMark
+          </h3>
+        </a>
+
+        <nav class="navbar" data-navbar>
+          <div class="navbar-top">
+            <a href="#" class="logo">
+              <img
+                src="./assets/images/logo-light.svg"
+                width="64"
+                height="24"
+                alt="" />
+            </a>
+
+            <button
+              class="nav-close-btn"
+              aria-label="close menu"
+              data-nav-toggler>
+              <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+            </button>
+          </div>
+
+          <ul class="navbar-list">
+            <li>
+              <a href="#home" class="navbar-link">Home</a>
+            </li>
+
+            <li>
+              <a href="#reflection" class="navbar-link">Reflection</a>
+            </li>
+
+            <li>
+              <a href="#accomplishment" class="navbar-link">Accomplishment</a>
+            </li>
+
+            <li>
+              <a href="#documentation" class="navbar-link">Documentation</a>
+            </li>
+          </ul>
+
+          <div class="wrapper">
+            <a href="mailto:info@email.com" class="contact-link"
+              >info@email.com</a
+            >
+
+            <a href="tel:001234567890" class="contact-link"
+              >00 (123) 456 78 90</a
+            >
+          </div>
+
+          <ul class="social-list">
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-dribbble"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <div class="overlay" data-nav-toggler data-overlay></div>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!-- 
+        - #HERO
+      -->
+
+        <section id="home" class="section hero" aria-label="home">
+          <div class="container">
+            <div class="hero-content">
+              <h1
+                class="h1 hero-title"
+                data-reveal="top"
+                data-reveal-delay="0.5s">
+                Welcome to my Blog Page
+              </h1>
+
+              <p
+                class="section-text"
+                data-reveal="top"
+                data-reveal-delay="0.75s">
+                A blog documenting my practicum journey, sharing what I learn
+                and experience as an aspiring Web Developer.
+              </p>
+
+              <div class="btn-wrapper" data-reveal="top" data-reveal-delay="1s">
+                <a href="index.html" class="btn btn-primary"
+                  >View My Portfolio</a
+                >
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="reflection" class="section about" aria-label="about">
+          <div class="container">
+            <div data-reveal="left">
+              <h2
+                class="h2 section-title"
+                style="text-align: center; margin-bottom: 30px">
+                Reflection
+              </h2>
+
+              <p class="section-text" style="text-align: justify">
+                My On-the-Job Training (OJT) started on June 30, 2025, and ended
+                on July 25, 2025, with a total of 162 hours at Upright Creative
+                Company in the Web Development Department. My OJT experience
+                focused mainly on Shopify theme development training and the
+                application of what I learned through a few assigned tasks for
+                actual client projects. <br />
+                <br />
+                During the first few weeks, I spent most of my time learning and
+                familiarizing myself with Shopify theme development. The company
+                provided a structured training course that allowed me to gain
+                knowledge and skills in several areas. I learned how to set up a
+                Shopify development store and connect it to local development
+                tools, install Node.js and Shopify CLI for theme creation and
+                deployment, and use Liquid and JSON templates to design and
+                customize pages. I also practiced creating responsive website
+                components such as navigation menus, blog pages, collection
+                pages, product pages, and cart pages. In addition, I applied
+                Tailwind CSS in my designs and learned GitHub integration for
+                collaborative version control. <br />
+                <br />
+                While most of my tasks were focused on self-paced learning and
+                practice, I was also given opportunities to contribute to real
+                client projects, which provided me with a glimpse of actual
+                freelancing work. My assigned tasks included creating a 404 page
+                for a client’s Shopify theme, developing a rich-text section for
+                the same client’s theme, and implementing a variant selector for
+                the product page. These tasks allowed me to apply the skills I
+                gained from the training course in a real-world environment
+                where attention to detail and adherence to client requirements
+                were essential. <br />
+                <br />
+                Reflecting on this experience, I realized that even though the
+                majority of my OJT involved learning and training, it was still
+                highly valuable. I gained hands-on experience in Shopify theme
+                development, improved my technical skills in Liquid, JSON, HTML,
+                CSS, and Tailwind CSS, and learned to work independently while
+                following professional standards. This OJT not only enhanced my
+                web development capabilities but also prepared me for
+                freelancing and client-based projects, equipping me with both
+                the confidence and discipline needed to pursue a career in web
+                development.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section
+          id="accomplishment"
+          style="background-color: var(--cultured)"
+          class="section about"
+          aria-label="about">
+          <div class="container">
+            <h2
+              class="h2 section-title"
+              style="margin-bottom: 30px; text-align: center">
+              Daily Accomplishment
+            </h2>
+            <h3 class="h3 card-title" style="margin-bottom: 20px">Week 1</h3>
+            <ul class="blog grid-list" style="margin-bottom: 80px">
+              <li data-reveal="bottom">
+                <div class="about-card">
+                  <div class="image-container">
+                    <img
+                      src="./assets/images/documentation/21.jpg "
+                      loading="lazy" />
+                  </div>
+
+                  <h3 class="h4 card-title">Day 1</h3>
+
+                  <p class="card-text">
+                    Introduced in Shopify Theme Development during orientaton.
+                  </p>
+                </div>
+              </li>
+
+              <li data-reveal="bottom">
+                <div class="about-card">
+                  <div class="image-container">
+                    <img
+                      src="./assets/images/documentation/17.jpg "
+                      loading="lazy" />
+                  </div>
+
+                  <h3 class="h4 card-title">Day 2</h3>
+
+                  <p class="card-text">
+                    Learned how to setup shopify account and to create a
+                    development store.
+                  </p>
+                </div>
+              </li>
+              <li data-reveal="bottom">
+                <div class="about-card">
+                  <div class="image-container">
+                    <img
+                      src="./assets/images/documentation/18.jpg "
+                      loading="lazy" />
+                  </div>
+
+                  <h3 class="h4 card-title">Day 3</h3>
+
+                  <p class="card-text">
+                    Learned how to install local development tools for shopify
+                    such as: nodejs and shopify cli.
+                  </p>
+                </div>
+              </li>
+              <li data-reveal="bottom">
+                <div class="about-card">
+                  <div class="image-container">
+                    <img
+                      src="./assets/images/documentation/19.jpg "
+                      loading="lazy" />
+                  </div>
+
+                  <h3 class="h4 card-title">Day 4</h3>
+
+                  <p class="card-text">
+                    Started on creating the shopify theme project. Learned how
+                    to cennect local shopify themes to online store and install
+                    TailwindCSS.
+                  </p>
+                </div>
+              </li>
+              <li data-reveal="bottom">
+                <div class="about-card">
+                  <div class="image-container">
+                    <img
+                      src="./assets/images/documentation/5.jpg"
+                      loading="lazy" />
+                  </div>
+
+                  <h3 class="h4 card-title">Day 5</h3>
+
+                  <p class="card-text">
+                    Started creating responsive navigational bar (menu links,
+                    sublinks, mobile menu window). Learned how to customize the
+                    header with section schema.
+                  </p>
+                </div>
+              </li>
+            </ul>
+            <h3 class="h3 card-title" style="margin-bottom: 20px">Week 2</h3>
+            <ul class="blog grid-list" style="margin-bottom: 80px">
+              <li data-reveal="bottom">
+                <div class="about-card">
+                  <div class="image-container">
+                    <img
+                      src="./assets/images/documentation/6.jpg "
+                      loading="lazy" />
+                  </div>
+
+                  <h3 class="h4 card-title">Day 6</h3>
+
+                  <p class="card-text">
+                    Leared how to hide/show customer login & register links.
+                    Integrate GitHub with shopify
+                  </p>
+                </div>
+              </li>
+
+              <li data-reveal="bottom">
+                <div class="about-card">
+                  <div class="image-container">
+                    <img
+                      src="./assets/images/documentation/8.jpg "
+                      loading="lazy" />
+                  </div>
+
+                  <h3 class="h4 card-title">Day 7</h3>
+
+                  <p class="card-text">
+                    Learned about JSON Templates. Set up settings Schema of the
+                    404 page. Designed The 404 Page.
+                  </p>
+                </div>
+              </li>
+              <li data-reveal="bottom">
+                <div class="about-card">
+                  <div class="image-container">
+                    <img
+                      src="./assets/images/documentation/7.jpg "
+                      loading="lazy" />
+                  </div>
+
+                  <h3 class="h4 card-title">Day 8</h3>
+
+                  <p class="card-text">
+                    Worked on Article page: Creating Blog Post, Liquid to JSON
+                    Template, set up Settings Schema, designing the Article
+                    page.
+                  </p>
+                </div>
+              </li>
+              <li data-reveal="bottom">
+                <div class="about-card">
+                  <div class="image-container">
+                    <img
+                      src="./assets/images/documentation/9.jpg"
+                      loading="lazy" />
+                  </div>
+
+                  <h3 class="h4 card-title">Day 9</h3>
+
+                  <p class="card-text">
+                    Continue working on Article page: Creating Comments Section,
+                    Learned how to set up Search Engine Optimization(SEO).
+                  </p>
+                </div>
+              </li>
+              <li data-reveal="bottom">
+                <div class="about-card">
+                  <div class="image-container">
+                    <img
+                      src="./assets/images/documentation/10.jpg"
+                      loading="lazy" />
+                  </div>
+
+                  <h3 class="h4 card-title">Day 10</h3>
+
+                  <p class="card-text">
+                    Worked on Blog page: change liquid to JSON template, set up
+                    its Setting Schema, Designing, add paginations.
+                  </p>
+                </div>
+              </li>
+            </ul>
+            <h3 class="h3 card-title" style="margin-bottom: 20px">Week 3</h3>
+            <ul class="blog grid-list" style="margin-bottom: 80px">
+              <li data-reveal="bottom">
+                <div class="about-card">
+                  <div class="image-container">
+                    <img
+                      src="./assets/images/documentation/11.jpg"
+                      loading="lazy" />
+                  </div>
+
+                  <h3 class="h4 card-title">Day 11</h3>
+
+                  <p class="card-text">
+                    Worked on Cart page: change liquid to JSON template, set up
+                    its Setting Schema, Designing.
+                  </p>
+                </div>
+              </li>
+
+              <li data-reveal="bottom">
+                <div class="about-card">
+                  <div class="image-container">
+                    <img
+                      src="./assets/images/documentation/12.jpg"
+                      loading="lazy" />
+                  </div>
+
+                  <h3 class="h4 card-title">Day 12</h3>
+
+                  <p class="card-text">
+                    Learned how to create a fully functional Cart page using
+                    liquid/shopify development.
+                  </p>
+                </div>
+              </li>
+              <li data-reveal="bottom">
+                <div class="about-card">
+                  <div class="image-container">
+                    <img
+                      src="./assets/images/documentation/13.jpg"
+                      loading="lazy" />
+                  </div>
+
+                  <h3 class="h4 card-title">Day 13</h3>
+
+                  <p class="card-text">
+                    Learned how to created a Collection page of the store from
+                    scratch by following the same steps on making a page: form
+                    setting up schema, designing, and turning into blocks.
+                  </p>
+                </div>
+              </li>
+              <li data-reveal="bottom">
+                <div class="about-card">
+                  <div class="image-container">
+                    <img
+                      src="./assets/images/documentation/14.jpg"
+                      loading="lazy" />
+                  </div>
+
+                  <h3 class="h4 card-title">Day 14</h3>
+
+                  <p class="card-text">
+                    Learned how to create an index page and pages for articles
+                    from scratch.
+                  </p>
+                </div>
+              </li>
+              <li data-reveal="bottom">
+                <div class="about-card">
+                  <div class="image-container">
+                    <img
+                      src="./assets/images/documentation/15.jpg"
+                      loading="lazy" />
+                  </div>
+
+                  <h3 class="h4 card-title">Day 15</h3>
+
+                  <p class="card-text">
+                    Learned how to create a Product page (rendering medias and
+                    creating the product forms)
+                  </p>
+                </div>
+              </li>
+            </ul>
+            <h3 class="h3 card-title" style="margin-bottom: 20px">Week 4</h3>
+            <ul class="blog grid-list">
+              <li data-reveal="bottom">
+                <div class="about-card">
+                  <div class="image-container">
+                    <img
+                      src="./assets/images/documentation/16.jpg"
+                      loading="lazy" />
+                  </div>
+
+                  <h3 class="h4 card-title">Day 16</h3>
+
+                  <p class="card-text">
+                    Assigned to create a 404 page on real client’s shopify
+                    theme.
+                  </p>
+                </div>
+              </li>
+
+              <li data-reveal="bottom">
+                <div class="about-card">
+                  <div class="image-container">
+                    <img
+                      src="./assets/images/documentation/3.jpg"
+                      loading="lazy" />
+                  </div>
+
+                  <h3 class="h4 card-title">Day 17</h3>
+
+                  <p class="card-text">
+                    Assigned to create a rich-text section of the client’s
+                    shopify theme.
+                  </p>
+                </div>
+              </li>
+              <li data-reveal="bottom">
+                <div class="about-card">
+                  <div class="image-container">
+                    <img
+                      src="./assets/images/documentation/4.jpg "
+                      loading="lazy" />
+                  </div>
+
+                  <h3 class="h4 card-title">Day 18</h3>
+
+                  <p class="card-text">
+                    Watched tutorials on making customer page of the theme and
+                    trying it.
+                  </p>
+                </div>
+              </li>
+              <li data-reveal="bottom">
+                <div class="about-card">
+                  <div class="image-container">
+                    <img
+                      src="./assets/images/documentation/20.jpg"
+                      loading="lazy" />
+                  </div>
+
+                  <h3 class="h4 card-title">Day 19</h3>
+
+                  <p class="card-text">
+                    Assigned to make variant selector of product in product page
+                    of the shopify theme.
+                  </p>
+                </div>
+              </li>
+              <li data-reveal="bottom">
+                <div class="about-card">
+                  <div class="image-container">
+                    <img
+                      src="./assets/images/documentation/2.jpg"
+                      loading="lazy" />
+                  </div>
+
+                  <h3 class="h4 card-title">Day 20</h3>
+
+                  <p class="card-text">
+                    Tried making cart page of the theme as practice.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section id="documentation" class="section about" aria-label="about">
+          <div class="container">
+            <div
+              style="margin-bottom: 30px"
+              class="title-wrapper"
+              data-reveal="top">
+              <div>
+                <h2
+                  class="h2 section-title"
+                  id="project-label"
+                  style="text-align: center">
+                  Documentation
+                </h2>
+              </div>
+            </div>
+            <ul class="blog grid-list">
+              <li data-reveal="bottom">
+                <div class="about-card">
+                  <div class="doc-image">
+                    <img
+                      src="./assets/images/documentation/17.jpg "
+                      loading="lazy" />
+                  </div>
+                </div>
+              </li>
+              <li data-reveal="bottom">
+                <div class="about-card">
+                  <div class="doc-image">
+                    <img
+                      src="./assets/images/documentation/18.jpg "
+                      loading="lazy" />
+                  </div>
+                </div>
+              </li>
+              <li data-reveal="bottom">
+                <div class="about-card">
+                  <div class="doc-image">
+                    <img
+                      src="./assets/images/documentation/19.jpg "
+                      loading="lazy" />
+                  </div>
+                </div>
+              </li>
+              <li data-reveal="bottom">
+                <div class="about-card">
+                  <div class="doc-image">
+                    <img
+                      src="./assets/images/documentation/20.jpg "
+                      loading="lazy" />
+                  </div>
+                </div>
+              </li>
+              <li data-reveal="bottom">
+                <div class="about-card">
+                  <div class="doc-image">
+                    <img
+                      src="./assets/images/documentation/21.jpg "
+                      loading="lazy" />
+                  </div>
+                </div>
+              </li>
+              <li data-reveal="bottom">
+                <div class="about-card">
+                  <div class="doc-image">
+                    <img
+                      src="./assets/images/documentation/1.jpg "
+                      loading="lazy" />
+                  </div>
+                </div>
+              </li>
+              <li data-reveal="bottom">
+                <div class="about-card">
+                  <div class="doc-image">
+                    <img
+                      src="./assets/images/documentation/2.jpg "
+                      loading="lazy" />
+                  </div>
+                </div>
+              </li>
+              <li data-reveal="bottom">
+                <div class="about-card">
+                  <div class="doc-image">
+                    <img
+                      src="./assets/images/documentation/3.jpg "
+                      loading="lazy" />
+                  </div>
+                </div>
+              </li>
+              <li data-reveal="bottom">
+                <div class="about-card">
+                  <div class="doc-image">
+                    <img
+                      src="./assets/images/documentation/4.jpg "
+                      loading="lazy" />
+                  </div>
+                </div>
+              </li>
+              <li data-reveal="bottom">
+                <div class="about-card">
+                  <div class="doc-image">
+                    <img
+                      src="./assets/images/documentation/5.jpg "
+                      loading="lazy" />
+                  </div>
+                </div>
+              </li>
+              <li data-reveal="bottom">
+                <div class="about-card">
+                  <div class="doc-image">
+                    <img
+                      src="./assets/images/documentation/6.jpg "
+                      loading="lazy" />
+                  </div>
+                </div>
+              </li>
+              <li data-reveal="bottom">
+                <div class="about-card">
+                  <div class="doc-image">
+                    <img
+                      src="./assets/images/documentation/7.jpg "
+                      loading="lazy" />
+                  </div>
+                </div>
+              </li>
+              <li data-reveal="bottom">
+                <div class="about-card">
+                  <div class="doc-image">
+                    <img
+                      src="./assets/images/documentation/8.jpg "
+                      loading="lazy" />
+                  </div>
+                </div>
+              </li>
+              <li data-reveal="bottom">
+                <div class="about-card">
+                  <div class="doc-image">
+                    <img
+                      src="./assets/images/documentation/9.jpg "
+                      loading="lazy" />
+                  </div>
+                </div>
+              </li>
+              <li data-reveal="bottom">
+                <div class="about-card">
+                  <div class="doc-image">
+                    <img
+                      src="./assets/images/documentation/10.jpg "
+                      loading="lazy" />
+                  </div>
+                </div>
+              </li>
+              <li data-reveal="bottom">
+                <div class="about-card">
+                  <div class="doc-image">
+                    <img
+                      src="./assets/images/documentation/11.jpg "
+                      loading="lazy" />
+                  </div>
+                </div>
+              </li>
+              <li data-reveal="bottom">
+                <div class="about-card">
+                  <div class="doc-image">
+                    <img
+                      src="./assets/images/documentation/12.jpg "
+                      loading="lazy" />
+                  </div>
+                </div>
+              </li>
+              <li data-reveal="bottom">
+                <div class="about-card">
+                  <div class="doc-image">
+                    <img
+                      src="./assets/images/documentation/13.jpg "
+                      loading="lazy" />
+                  </div>
+                </div>
+              </li>
+              <li data-reveal="bottom">
+                <div class="about-card">
+                  <div class="doc-image">
+                    <img
+                      src="./assets/images/documentation/14.jpg "
+                      loading="lazy" />
+                  </div>
+                </div>
+              </li>
+              <li data-reveal="bottom">
+                <div class="about-card">
+                  <div class="doc-image">
+                    <img
+                      src="./assets/images/documentation/15.jpg "
+                      loading="lazy" />
+                  </div>
+                </div>
+              </li>
+              <li data-reveal="bottom">
+                <div class="about-card">
+                  <div class="doc-image">
+                    <img
+                      src="./assets/images/documentation/16.jpg "
+                      loading="lazy" />
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- 
+        - #CONTACT
+      --></article>
+    </main>
+
+    <!-- 
+    - #FOOTER
+  -->
+
+    <footer class="footer">
+      <div class="container">
+        <p class="copyright">© 2022 junmarkgarcia. All rights reserved.</p>
+
+        <ul class="social-list">
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-dribbble"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!-- 
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>

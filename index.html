@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- 
+    - primary meta tags
+  -->
+    <title>JunMark</title>
+    <meta
+      name="title"
+      content="Julia - I'm User Interface Designer & Developer." />
+    <meta
+      name="description"
+      content="This is a personal portfolio html template made by codewithsadee" />
+
+    <!-- 
+    - favicon
+  -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap"
+      rel="stylesheet" />
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- 
+    - preload images
+  -->
+    <link rel="preload" as="image" href="./assets/images/hero-banner.jpg" />
+    <link rel="preload" as="image" href="./assets/images/Blog.svg" />
+  </head>
+
+  <body>
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
+      <div class="container">
+        <a href="#" class="logo">
+          <h3 class="h4">JunMark</h3>
+        </a>
+
+        <nav class="navbar" data-navbar>
+          <div class="navbar-top">
+            <a href="#" class="logo">
+              <img
+                src="./assets/images/logo-light.svg"
+                width="64"
+                height="24"
+                alt="" />
+            </a>
+
+            <button
+              class="nav-close-btn"
+              aria-label="close menu"
+              data-nav-toggler>
+              <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+            </button>
+          </div>
+
+          <ul class="navbar-list">
+            <li>
+              <a href="#home" class="navbar-link">Home</a>
+            </li>
+
+            <li>
+              <a href="#about" class="navbar-link">About</a>
+            </li>
+
+            <li>
+              <a href="#projects" class="navbar-link">Projects</a>
+            </li>
+
+            <li>
+              <a href="#blog" class="navbar-link">Blog</a>
+            </li>
+
+            <li>
+              <a href="#contact" class="navbar-link">Contact</a>
+            </li>
+          </ul>
+
+          <div class="wrapper">
+            <a href="mailto:info@email.com" class="contact-link"
+              >info@email.com</a
+            >
+
+            <a href="tel:001234567890" class="contact-link"
+              >00 (123) 456 78 90</a
+            >
+          </div>
+
+          <ul class="social-list">
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-dribbble"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <div class="overlay" data-nav-toggler data-overlay></div>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!-- 
+        - #HERO
+      -->
+
+        <section id="home" class="section hero" aria-label="home">
+          <div class="container">
+            <figure class="hero-banner">
+              <img
+                src="./assets/images/profile.jpg"
+                width="560"
+                height="540"
+                alt="JunMark"
+                class="w-100"
+                data-reveal="top" />
+            </figure>
+
+            <div class="hero-content">
+              <h1
+                class="h1 hero-title"
+                data-reveal="top"
+                data-reveal-delay="0.5s">
+                Hi, I'm Jun Mark
+              </h1>
+
+              <p
+                class="section-text"
+                data-reveal="top"
+                data-reveal-delay="0.75s">
+                An aspiring Web Developer passionate about learning, building,
+                and sharing my practicum journey.
+              </p>
+
+              <div class="btn-wrapper" data-reveal="top" data-reveal-delay="1s">
+                <a href="#about" class="btn btn-primary">About me</a>
+
+                <a href="#blog" class="btn btn-secondary">My OJT blog</a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 
+        - #ABOUT
+      -->
+
+        <section id="about" class="section about" aria-label="about">
+          <div class="container">
+            <div class="wrapper">
+              <div data-reveal="left">
+                <h2 class="h2 section-title">About Me?</h2>
+
+                <p class="section-text" style="text-align: justify">
+                  Hi, I’m <strong>Jun Mark Garcia</strong>, a
+                  <strong>
+                    BS Computer Science student at North Eastern Mindanao State
+                    University
+                  </strong>
+                  currently taking my practicum/OJT at
+                  <strong> Uprights Creative company </strong>. <br />
+                  <br />
+                  During my training, I’ve been learning about Web development,
+                  and I enjoy applying my classroom knowledge to real-world
+                  projects. <br />
+                  <br />
+                  I’m skilled in HTML, CSS, JavaScript, teamwork,
+                  problem-solving, and I’m passionate about creating
+                  user-friendly websites / solving IT challenges / exploring
+                  data visualization. <br />
+                  <br />
+                  Outside of tech, I enjoy basketball, gaming, reading, etc.
+                  which inspires my creativity and problem-solving. My goal is
+                  to become a full-stack developer and keep growing in the tech
+                  field.
+                </p>
+              </div>
+
+              <ul class="progress-list" data-reveal="right">
+                <h2 class="h3 section-title">
+                  Coding Skills I Develop Regularly
+                </h2>
+                <p class="section-text">
+                  This is how I priorities learning on each skill. <br /><br />
+                </p>
+                <li class="progress-item">
+                  <div class="label-wrapper">
+                    <p>JavaScript</p>
+
+                    <span class="span">100 %</span>
+                  </div>
+
+                  <div class="progress">
+                    <div
+                      class="progress-fill"
+                      style="width: 100%; background-color: #c7b1dd"></div>
+                  </div>
+                </li>
+
+                <li class="progress-item">
+                  <div class="label-wrapper">
+                    <p>CSS</p>
+
+                    <span class="span">80 %</span>
+                  </div>
+
+                  <div class="progress">
+                    <div
+                      class="progress-fill"
+                      style="width: 80%; background-color: #8caeec"></div>
+                  </div>
+                </li>
+
+                <li class="progress-item">
+                  <div class="label-wrapper">
+                    <p>Flutter</p>
+
+                    <span class="span">60 %</span>
+                  </div>
+
+                  <div class="progress">
+                    <div
+                      class="progress-fill"
+                      style="width: 60%; background-color: #b0d4c1"></div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <h2
+              class="h2 section-title"
+              style="margin-bottom: 30px; text-align: center">
+              My Expertise
+            </h2>
+            <ul class="grid-list">
+              <li data-reveal="bottom">
+                <div class="about-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/icon-1.svg"
+                      width="52"
+                      height="52"
+                      loading="lazy"
+                      alt="web design icon" />
+                  </div>
+
+                  <h3 class="h4 card-title">Web Design</h3>
+
+                  <p class="card-text">
+                    Creating modern, responsive, and visually appealing websites
+                    tailored for seamless user experiences.
+                  </p>
+                </div>
+              </li>
+
+              <li data-reveal="bottom" data-reveal-delay="0.25s">
+                <div class="about-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/icon-2.svg"
+                      width="52"
+                      height="52"
+                      loading="lazy"
+                      alt="mobile design icon" />
+                  </div>
+
+                  <h3 class="h4 card-title">Mobile Design</h3>
+
+                  <p class="card-text">
+                    Designing clean and intuitive mobile app interfaces that
+                    enhance usability and engagement.
+                  </p>
+                </div>
+              </li>
+
+              <li data-reveal="bottom" data-reveal-delay="0.5s">
+                <div class="about-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/icon-3.svg"
+                      width="52"
+                      height="52"
+                      loading="lazy"
+                      alt="web development icon" />
+                  </div>
+
+                  <h3 class="h4 card-title">Development</h3>
+
+                  <p class="card-text">
+                    Building scalable and efficient applications with clean code
+                    and robust functionality.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- 
+        - #PROJECT
+      -->
+
+        <section
+          id="projects"
+          class="section project"
+          aria-labelledby="project-label">
+          <div class="container">
+            <div class="title-wrapper" data-reveal="top">
+              <div>
+                <h2 class="h2 section-title" id="project-label">
+                  Latest Projects
+                </h2>
+
+                <p class="section-text">
+                  Check out some of my latest projects with creative ideas.
+                </p>
+              </div>
+            </div>
+
+            <ul class="grid-list">
+              <li>
+                <div
+                  class="project-card project-card-1"
+                  style="background-color: #f8f5fb">
+                  <div class="card-content" data-reveal="left">
+                    <p class="card-tag" style="color: #a07cc5">
+                      Web App Development
+                    </p>
+
+                    <h3 class="h3 card-title">Inventory Management System</h3>
+
+                    <p class="card-text">
+                      Developed an Inventory Management and Service Log System
+                      tailored for a computer products store that also offers
+                      repair and setup services. The system helps track items,
+                      manage stock categories, monitor sales, and log service
+                      activities efficiently.
+                    </p>
+                  </div>
+
+                  <figure class="card-banner" data-reveal="right">
+                    <img
+                      src="./assets/images/IMS.png"
+                      width="650"
+                      height="370"
+                      loading="lazy"
+                      alt="Web Design"
+                      class="w-100" />
+                  </figure>
+                </div>
+              </li>
+
+              <li>
+                <div
+                  class="project-card project-card-2"
+                  style="background-color: #f1f5fd">
+                  <div class="card-content" data-reveal="right">
+                    <p class="card-tag" style="color: #3f78e0">
+                      Mobile App Development
+                    </p>
+
+                    <h3 class="h3 card-title">To-Do App</h3>
+
+                    <p class="card-text">
+                      Built a To-Do mobile app with Flutter, designed for
+                      efficient task management. The app allows users to create,
+                      organize, and track tasks with a clean and intuitive
+                      interface.
+                    </p>
+                  </div>
+
+                  <figure class="card-banner" data-reveal="left">
+                    <img
+                      src="./assets/images/todoapp.png"
+                      width="600"
+                      height="367"
+                      loading="lazy"
+                      alt="Web Design"
+                      class="w-100" />
+                  </figure>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section id="blog" class="section blog" aria-label="about">
+          <div class="container">
+            <div
+              style="margin-bottom: 30px"
+              class="title-wrapper"
+              data-reveal="top">
+              <div>
+                <h2 class="h2 section-title" id="project-label">
+                  My Practicum/OJT Blog
+                </h2>
+
+                <p class="section-text">
+                  Check out my daily accomplishment during my On The Job
+                  Training.
+                </p>
+              </div>
+
+              <a
+                href="blogpage.html"
+                style="margin-left: auto"
+                class="btn btn-secondary"
+                >See All
+              </a>
+            </div>
+            <ul class="blog grid-list">
+              <li data-reveal="bottom">
+                <div class="about-card">
+                  <div class="image-container">
+                    <img
+                      src="./assets/images/documentation/21.jpg "
+                      loading="lazy" />
+                  </div>
+
+                  <h3 class="h4 card-title">Day 1</h3>
+
+                  <p class="card-text">
+                    Introduced in Shopify Theme Development during orientaton.
+                  </p>
+                </div>
+              </li>
+
+              <li data-reveal="bottom">
+                <div class="about-card">
+                  <div class="image-container">
+                    <img
+                      src="./assets/images/documentation/17.jpg "
+                      loading="lazy" />
+                  </div>
+
+                  <h3 class="h4 card-title">Day 2</h3>
+
+                  <p class="card-text">
+                    Learned how to setup shopify account and to create a
+                    development store.
+                  </p>
+                </div>
+              </li>
+              <li data-reveal="bottom">
+                <div class="about-card">
+                  <div class="image-container">
+                    <img
+                      src="./assets/images/documentation/18.jpg "
+                      loading="lazy" />
+                  </div>
+
+                  <h3 class="h4 card-title">Day 3</h3>
+
+                  <p class="card-text">
+                    Learned how to install local development tools for shopify
+                    such as: nodejs and shopify cli.
+                  </p>
+                </div>
+              </li>
+              <li data-reveal="bottom">
+                <div class="about-card">
+                  <div class="image-container">
+                    <img
+                      src="./assets/images/documentation/19.jpg "
+                      loading="lazy" />
+                  </div>
+
+                  <h3 class="h4 card-title">Day 4</h3>
+
+                  <p class="card-text">
+                    Started on creating the shopify theme project. Learned how
+                    to cennect local shopify themes to online store and install
+                    TailwindCSS.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- 
+        - #CONTACT
+      -->
+
+        <section id="contact" class="section contact" aria-label="contact">
+          <div class="container">
+            <div class="contact-card">
+              <div class="contact-content" data-reveal="left">
+                <div class="card-icon">
+                  <img
+                    src="./assets/images/icon-5.svg"
+                    width="44"
+                    height="44"
+                    loading="lazy"
+                    alt="envelop icon" />
+                </div>
+
+                <h2 class="h2 section-title">
+                  If you’d like to get in touch, here are my contact details.
+                </h2>
+
+                <p class="section-text">Let’s stay connected!</p>
+              </div>
+
+              <ul class="contact-list">
+                <li class="contact-item">
+                  <div class="contact-icon">
+                    <ion-icon name="location"></ion-icon>
+                  </div>
+
+                  <div>
+                    <h3 class="card-title">Address</h3>
+
+                    <address class="contact-item-link">
+                      Cagbaoto, Bayabas, Surigao del Sur
+                    </address>
+                  </div>
+                </li>
+
+                <li class="contact-item">
+                  <div class="contact-icon">
+                    <ion-icon name="mail"></ion-icon>
+                  </div>
+
+                  <div>
+                    <h3 class="card-title">Email</h3>
+
+                    <a href="mailto:hello@ethan.com" class="contact-item-link"
+                      >garciajunmark23@gmail.com</a
+                    >
+                  </div>
+                </li>
+
+                <li class="contact-item">
+                  <div class="contact-icon">
+                    <ion-icon name="call"></ion-icon>
+                  </div>
+
+                  <div>
+                    <h3 class="card-title">Phone</h3>
+
+                    <a href="tel:+1234567890" class="contact-item-link"
+                      >09123456789</a
+                    >
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <!-- 
+    - #FOOTER
+  -->
+
+    <footer class="footer">
+      <div class="container">
+        <p class="copyright">© 2022 jumarkgarcia. All rights reserved.</p>
+
+        <ul class="social-list">
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-dribbble"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!-- 
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
